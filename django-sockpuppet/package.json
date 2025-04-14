@@ -1,0 +1,17 @@
+{
+    "name": "django-sockpuppet",
+    "version": "1.0.0",
+    "description": "Frontend dependencies for Django Sockpuppet project",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --mode production",
+      "watch": "webpack --watch --info-verbosity verbose"
+    },
+    "dependencies": {
+      "stimulus": "^3.2.1"
+    },
+    "devDependencies": {
+      "webpack": "^5.88.0",
+      "webpack-cli": "^5.1.4"
+    }
+  }
