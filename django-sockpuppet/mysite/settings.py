@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-sl-l78zqaxjvr1jl!&87vf7cvdz7l7n)j70mv_8(&bq*$m=+sc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -141,3 +141,5 @@ BASE_DIR = Path.cwd()
 STATICFILES_DIRS = [
     ("js", f"{BASE_DIR}/dist/js"),
 ]
+
+DJANGO_SETTINGS_MODULE = "mysite.settings"

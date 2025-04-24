@@ -8,11 +8,14 @@
     "watch": "webpack --watch --info-verbosity verbose"
   },
   "dependencies": {
-    "add-project-script": "^1.0.2",
-    "stimulus": "^3.2.1"
+    "add-project-script": "^1.0.2"
   },
   "devDependencies": {
-    "webpack": "^5.88.0",
+    "glob": "^11.0.2",
+    "sockpuppet-js": "^0.6.0",
+    "stimulus": "^3.2.2",
+    "stimulus_reflex": "^3.5.3",
+    "webpack": "^5.99.6",
     "webpack-cli": "^5.1.4"
   },
   "keywords": [],
