@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import include, path
 from .views.your_reflex_name import YourReflexNameView
 
 urlpatterns = [
